@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		716C0A7A1DCA266C00C6DCC2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 716C0A791DCA266C00C6DCC2 /* main.m */; };
+		716C0A7D1DCA266C00C6DCC2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 716C0A7C1DCA266C00C6DCC2 /* AppDelegate.m */; };
+		716C0A801DCA266C00C6DCC2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 716C0A7F1DCA266C00C6DCC2 /* ViewController.m */; };
+		716C0A831DCA266C00C6DCC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 716C0A811DCA266C00C6DCC2 /* Main.storyboard */; };
+		716C0A861DCA266C00C6DCC2 /* KeepWorksTask.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 716C0A841DCA266C00C6DCC2 /* KeepWorksTask.xcdatamodeld */; };
+		716C0A881DCA266C00C6DCC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 716C0A871DCA266C00C6DCC2 /* Assets.xcassets */; };
+		716C0A8B1DCA266C00C6DCC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 716C0A891DCA266C00C6DCC2 /* LaunchScreen.storyboard */; };
+		716C0A961DCA266C00C6DCC2 /* KeepWorksTaskTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 716C0A951DCA266C00C6DCC2 /* KeepWorksTaskTests.m */; };
+		716C0AA11DCA266C00C6DCC2 /* KeepWorksTaskUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 716C0AA01DCA266C00C6DCC2 /* KeepWorksTaskUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		716C0A921DCA266C00C6DCC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 716C0A6D1DCA266B00C6DCC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 716C0A741DCA266C00C6DCC2;
+			remoteInfo = KeepWorksTask;
+		};
+		716C0A9D1DCA266C00C6DCC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 716C0A6D1DCA266B00C6DCC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 716C0A741DCA266C00C6DCC2;
+			remoteInfo = KeepWorksTask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		716C0A751DCA266C00C6DCC2 /* KeepWorksTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeepWorksTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		716C0A791DCA266C00C6DCC2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		716C0A7B1DCA266C00C6DCC2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		716C0A7C1DCA266C00C6DCC2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		716C0A7E1DCA266C00C6DCC2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		716C0A7F1DCA266C00C6DCC2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		716C0A821DCA266C00C6DCC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		716C0A851DCA266C00C6DCC2 /* KeepWorksTask.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KeepWorksTask.xcdatamodel; sourceTree = "<group>"; };
+		716C0A871DCA266C00C6DCC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		716C0A8A1DCA266C00C6DCC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		716C0A8C1DCA266C00C6DCC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		716C0A911DCA266C00C6DCC2 /* KeepWorksTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeepWorksTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		716C0A951DCA266C00C6DCC2 /* KeepWorksTaskTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeepWorksTaskTests.m; sourceTree = "<group>"; };
+		716C0A971DCA266C00C6DCC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		716C0A9C1DCA266C00C6DCC2 /* KeepWorksTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeepWorksTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		716C0AA01DCA266C00C6DCC2 /* KeepWorksTaskUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeepWorksTaskUITests.m; sourceTree = "<group>"; };
+		716C0AA21DCA266C00C6DCC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		716C0A721DCA266C00C6DCC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		716C0A8E1DCA266C00C6DCC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		716C0A991DCA266C00C6DCC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		716C0A6C1DCA266B00C6DCC2 = {
+			isa = PBXGroup;
+			children = (
+				716C0A771DCA266C00C6DCC2 /* KeepWorksTask */,
+				716C0A941DCA266C00C6DCC2 /* KeepWorksTaskTests */,
+				716C0A9F1DCA266C00C6DCC2 /* KeepWorksTaskUITests */,
+				716C0A761DCA266C00C6DCC2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		716C0A761DCA266C00C6DCC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				716C0A751DCA266C00C6DCC2 /* KeepWorksTask.app */,
+				716C0A911DCA266C00C6DCC2 /* KeepWorksTaskTests.xctest */,
+				716C0A9C1DCA266C00C6DCC2 /* KeepWorksTaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		716C0A771DCA266C00C6DCC2 /* KeepWorksTask */ = {
+			isa = PBXGroup;
+			children = (
+				716C0A7B1DCA266C00C6DCC2 /* AppDelegate.h */,
+				716C0A7C1DCA266C00C6DCC2 /* AppDelegate.m */,
+				716C0A7E1DCA266C00C6DCC2 /* ViewController.h */,
+				716C0A7F1DCA266C00C6DCC2 /* ViewController.m */,
+				716C0A811DCA266C00C6DCC2 /* Main.storyboard */,
+				716C0A871DCA266C00C6DCC2 /* Assets.xcassets */,
+				716C0A891DCA266C00C6DCC2 /* LaunchScreen.storyboard */,
+				716C0A8C1DCA266C00C6DCC2 /* Info.plist */,
+				716C0A841DCA266C00C6DCC2 /* KeepWorksTask.xcdatamodeld */,
+				716C0A781DCA266C00C6DCC2 /* Supporting Files */,
+			);
+			path = KeepWorksTask;
+			sourceTree = "<group>";
+		};
+		716C0A781DCA266C00C6DCC2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				716C0A791DCA266C00C6DCC2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		716C0A941DCA266C00C6DCC2 /* KeepWorksTaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				716C0A951DCA266C00C6DCC2 /* KeepWorksTaskTests.m */,
+				716C0A971DCA266C00C6DCC2 /* Info.plist */,
+			);
+			path = KeepWorksTaskTests;
+			sourceTree = "<group>";
+		};
+		716C0A9F1DCA266C00C6DCC2 /* KeepWorksTaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				716C0AA01DCA266C00C6DCC2 /* KeepWorksTaskUITests.m */,
+				716C0AA21DCA266C00C6DCC2 /* Info.plist */,
+			);
+			path = KeepWorksTaskUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		716C0A741DCA266C00C6DCC2 /* KeepWorksTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 716C0AA51DCA266C00C6DCC2 /* Build configuration list for PBXNativeTarget "KeepWorksTask" */;
+			buildPhases = (
+				716C0A711DCA266C00C6DCC2 /* Sources */,
+				716C0A721DCA266C00C6DCC2 /* Frameworks */,
+				716C0A731DCA266C00C6DCC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeepWorksTask;
+			productName = KeepWorksTask;
+			productReference = 716C0A751DCA266C00C6DCC2 /* KeepWorksTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		716C0A901DCA266C00C6DCC2 /* KeepWorksTaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 716C0AA81DCA266C00C6DCC2 /* Build configuration list for PBXNativeTarget "KeepWorksTaskTests" */;
+			buildPhases = (
+				716C0A8D1DCA266C00C6DCC2 /* Sources */,
+				716C0A8E1DCA266C00C6DCC2 /* Frameworks */,
+				716C0A8F1DCA266C00C6DCC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				716C0A931DCA266C00C6DCC2 /* PBXTargetDependency */,
+			);
+			name = KeepWorksTaskTests;
+			productName = KeepWorksTaskTests;
+			productReference = 716C0A911DCA266C00C6DCC2 /* KeepWorksTaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		716C0A9B1DCA266C00C6DCC2 /* KeepWorksTaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 716C0AAB1DCA266C00C6DCC2 /* Build configuration list for PBXNativeTarget "KeepWorksTaskUITests" */;
+			buildPhases = (
+				716C0A981DCA266C00C6DCC2 /* Sources */,
+				716C0A991DCA266C00C6DCC2 /* Frameworks */,
+				716C0A9A1DCA266C00C6DCC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				716C0A9E1DCA266C00C6DCC2 /* PBXTargetDependency */,
+			);
+			name = KeepWorksTaskUITests;
+			productName = KeepWorksTaskUITests;
+			productReference = 716C0A9C1DCA266C00C6DCC2 /* KeepWorksTaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		716C0A6D1DCA266B00C6DCC2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Satish;
+				TargetAttributes = {
+					716C0A741DCA266C00C6DCC2 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					716C0A901DCA266C00C6DCC2 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 716C0A741DCA266C00C6DCC2;
+					};
+					716C0A9B1DCA266C00C6DCC2 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 716C0A741DCA266C00C6DCC2;
+					};
+				};
+			};
+			buildConfigurationList = 716C0A701DCA266B00C6DCC2 /* Build configuration list for PBXProject "KeepWorksTask" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 716C0A6C1DCA266B00C6DCC2;
+			productRefGroup = 716C0A761DCA266C00C6DCC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				716C0A741DCA266C00C6DCC2 /* KeepWorksTask */,
+				716C0A901DCA266C00C6DCC2 /* KeepWorksTaskTests */,
+				716C0A9B1DCA266C00C6DCC2 /* KeepWorksTaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		716C0A731DCA266C00C6DCC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				716C0A8B1DCA266C00C6DCC2 /* LaunchScreen.storyboard in Resources */,
+				716C0A881DCA266C00C6DCC2 /* Assets.xcassets in Resources */,
+				716C0A831DCA266C00C6DCC2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		716C0A8F1DCA266C00C6DCC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		716C0A9A1DCA266C00C6DCC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		716C0A711DCA266C00C6DCC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				716C0A861DCA266C00C6DCC2 /* KeepWorksTask.xcdatamodeld in Sources */,
+				716C0A801DCA266C00C6DCC2 /* ViewController.m in Sources */,
+				716C0A7D1DCA266C00C6DCC2 /* AppDelegate.m in Sources */,
+				716C0A7A1DCA266C00C6DCC2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		716C0A8D1DCA266C00C6DCC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				716C0A961DCA266C00C6DCC2 /* KeepWorksTaskTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		716C0A981DCA266C00C6DCC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				716C0AA11DCA266C00C6DCC2 /* KeepWorksTaskUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		716C0A931DCA266C00C6DCC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 716C0A741DCA266C00C6DCC2 /* KeepWorksTask */;
+			targetProxy = 716C0A921DCA266C00C6DCC2 /* PBXContainerItemProxy */;
+		};
+		716C0A9E1DCA266C00C6DCC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 716C0A741DCA266C00C6DCC2 /* KeepWorksTask */;
+			targetProxy = 716C0A9D1DCA266C00C6DCC2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		716C0A811DCA266C00C6DCC2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				716C0A821DCA266C00C6DCC2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		716C0A891DCA266C00C6DCC2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				716C0A8A1DCA266C00C6DCC2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		716C0AA31DCA266C00C6DCC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		716C0AA41DCA266C00C6DCC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		716C0AA61DCA266C00C6DCC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KeepWorksTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.satish.KeepWorksTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		716C0AA71DCA266C00C6DCC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KeepWorksTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.satish.KeepWorksTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		716C0AA91DCA266C00C6DCC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KeepWorksTaskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.satish.KeepWorksTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeepWorksTask.app/KeepWorksTask";
+			};
+			name = Debug;
+		};
+		716C0AAA1DCA266C00C6DCC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KeepWorksTaskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.satish.KeepWorksTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeepWorksTask.app/KeepWorksTask";
+			};
+			name = Release;
+		};
+		716C0AAC1DCA266C00C6DCC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KeepWorksTaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.satish.KeepWorksTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KeepWorksTask;
+			};
+			name = Debug;
+		};
+		716C0AAD1DCA266C00C6DCC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KeepWorksTaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.satish.KeepWorksTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KeepWorksTask;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		716C0A701DCA266B00C6DCC2 /* Build configuration list for PBXProject "KeepWorksTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				716C0AA31DCA266C00C6DCC2 /* Debug */,
+				716C0AA41DCA266C00C6DCC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		716C0AA51DCA266C00C6DCC2 /* Build configuration list for PBXNativeTarget "KeepWorksTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				716C0AA61DCA266C00C6DCC2 /* Debug */,
+				716C0AA71DCA266C00C6DCC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		716C0AA81DCA266C00C6DCC2 /* Build configuration list for PBXNativeTarget "KeepWorksTaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				716C0AA91DCA266C00C6DCC2 /* Debug */,
+				716C0AAA1DCA266C00C6DCC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		716C0AAB1DCA266C00C6DCC2 /* Build configuration list for PBXNativeTarget "KeepWorksTaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				716C0AAC1DCA266C00C6DCC2 /* Debug */,
+				716C0AAD1DCA266C00C6DCC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		716C0A841DCA266C00C6DCC2 /* KeepWorksTask.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				716C0A851DCA266C00C6DCC2 /* KeepWorksTask.xcdatamodel */,
+			);
+			currentVersion = 716C0A851DCA266C00C6DCC2 /* KeepWorksTask.xcdatamodel */;
+			path = KeepWorksTask.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 716C0A6D1DCA266B00C6DCC2 /* Project object */;
+}

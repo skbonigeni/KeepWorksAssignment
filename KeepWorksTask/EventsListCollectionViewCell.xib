@@ -19,6 +19,7 @@
                             <constraint firstAttribute="height" constant="33" id="dpc-5L-FO2"/>
                         </constraints>
                         <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yGd-kC-bIh">
@@ -26,8 +27,7 @@
                             <constraint firstAttribute="width" constant="44" id="iyo-2n-j2a"/>
                             <constraint firstAttribute="height" constant="27" id="oct-Kv-c8J"/>
                         </constraints>
-                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                        <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="18"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="gD7-m9-Km6">
@@ -37,10 +37,10 @@
                     </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kcm-Vz-MKr">
                         <constraints>
+                            <constraint firstAttribute="width" constant="250" id="6C6-qR-qmz"/>
                             <constraint firstAttribute="height" constant="30" id="jgk-un-7aI"/>
                         </constraints>
-                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                        <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="18"/>
                         <nil key="highlightedColor"/>
                     </label>
                 </subviews>
@@ -51,7 +51,6 @@
                 <constraint firstItem="VUW-GH-xZm" firstAttribute="top" secondItem="gD7-m9-Km6" secondAttribute="bottom" constant="20" id="7Ax-Nw-eW8"/>
                 <constraint firstAttribute="trailing" secondItem="VUW-GH-xZm" secondAttribute="trailing" constant="50" id="C5I-fD-Roq"/>
                 <constraint firstAttribute="trailing" secondItem="gD7-m9-Km6" secondAttribute="trailing" id="MT7-2B-fd5"/>
-                <constraint firstItem="yGd-kC-bIh" firstAttribute="leading" secondItem="kcm-Vz-MKr" secondAttribute="trailing" constant="100" id="Q0y-EX-22l"/>
                 <constraint firstItem="gD7-m9-Km6" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Qr7-A1-pBx"/>
                 <constraint firstItem="kcm-Vz-MKr" firstAttribute="leading" secondItem="VUW-GH-xZm" secondAttribute="leading" id="VIu-fE-MHC"/>
                 <constraint firstItem="yGd-kC-bIh" firstAttribute="top" secondItem="VUW-GH-xZm" secondAttribute="bottom" constant="23" id="XRD-uf-VZU"/>

@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "ContentManager.h"
 
 @interface AppDelegate ()
 
@@ -17,7 +18,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [[ContentManager contentSharedManager] saveAllEventsData];
+    
     return YES;
+    
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

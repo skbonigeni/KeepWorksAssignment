@@ -7,9 +7,11 @@
 //
 
 #import "EventsList.h"
+#import "EventsList+CoreDataProperties.h"
 
 @implementation EventsList
 
 // Insert code here to add functionality to your managed object subclass
+
 
 @end

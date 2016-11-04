@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7151F9AE1DCBB2F600E5AF27 /* EventsList+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 7151F9AB1DCBB2F600E5AF27 /* EventsList+CoreDataProperties.m */; };
+		7151F9AF1DCBB2F600E5AF27 /* EventsList.m in Sources */ = {isa = PBXBuildFile; fileRef = 7151F9AD1DCBB2F600E5AF27 /* EventsList.m */; };
+		7169663C1DCB5EAA001FDE10 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7169663B1DCB5EAA001FDE10 /* CoreData.framework */; };
 		716C0A7A1DCA266C00C6DCC2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 716C0A791DCA266C00C6DCC2 /* main.m */; };
 		716C0A7D1DCA266C00C6DCC2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 716C0A7C1DCA266C00C6DCC2 /* AppDelegate.m */; };
 		716C0A801DCA266C00C6DCC2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 716C0A7F1DCA266C00C6DCC2 /* ViewController.m */; };
@@ -16,6 +19,26 @@
 		716C0A8B1DCA266C00C6DCC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 716C0A891DCA266C00C6DCC2 /* LaunchScreen.storyboard */; };
 		716C0A961DCA266C00C6DCC2 /* KeepWorksTaskTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 716C0A951DCA266C00C6DCC2 /* KeepWorksTaskTests.m */; };
 		716C0AA11DCA266C00C6DCC2 /* KeepWorksTaskUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 716C0AA01DCA266C00C6DCC2 /* KeepWorksTaskUITests.m */; };
+		716C0AB01DCA27C000C6DCC2 /* EventsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 716C0AAF1DCA27C000C6DCC2 /* EventsListViewController.m */; };
+		718070781DCA519400EAD966 /* EventsListCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 718070761DCA519400EAD966 /* EventsListCollectionViewCell.m */; };
+		718070791DCA519400EAD966 /* EventsListCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 718070771DCA519400EAD966 /* EventsListCollectionViewCell.xib */; };
+		7180707C1DCA618000EAD966 /* EventsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7180707B1DCA618000EAD966 /* EventsDetailViewController.m */; };
+		718070A61DCA761200EAD966 /* Barbecue Fridays.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7180709D1DCA761200EAD966 /* Barbecue Fridays.jpeg */; };
+		718070A71DCA761200EAD966 /* Italian carnival.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7180709E1DCA761200EAD966 /* Italian carnival.jpeg */; };
+		718070A81DCA761200EAD966 /* Metallica Concert.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7180709F1DCA761200EAD966 /* Metallica Concert.jpeg */; };
+		718070A91DCA761200EAD966 /* Rock and Roll nights.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 718070A01DCA761200EAD966 /* Rock and Roll nights.jpeg */; };
+		718070AA1DCA761200EAD966 /* SareeExhibition.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 718070A11DCA761200EAD966 /* SareeExhibition.jpeg */; };
+		718070AB1DCA761200EAD966 /* Startups Meet.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 718070A21DCA761200EAD966 /* Startups Meet.jpeg */; };
+		718070AC1DCA761200EAD966 /* Summer Noon Party.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 718070A31DCA761200EAD966 /* Summer Noon Party.jpeg */; };
+		718070AD1DCA761200EAD966 /* Summer workshop.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 718070A41DCA761200EAD966 /* Summer workshop.jpeg */; };
+		718070AE1DCA761200EAD966 /* Wine tasting.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 718070A51DCA761200EAD966 /* Wine tasting.jpeg */; };
+		718070B01DCA770F00EAD966 /* Impressions & Expressions.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 718070AF1DCA770F00EAD966 /* Impressions & Expressions.jpeg */; };
+		718070B31DCA7F6600EAD966 /* grid_active@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 718070B11DCA7F6600EAD966 /* grid_active@3x.png */; };
+		718070B61DCA7FAF00EAD966 /* list_active@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 718070B51DCA7FAF00EAD966 /* list_active@3x.png */; };
+		71A57E0C1DCB994A0036601E /* EventsGridFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A57E0B1DCB994A0036601E /* EventsGridFlowLayout.m */; };
+		71A57E0F1DCB99610036601E /* EventsListFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A57E0E1DCB99610036601E /* EventsListFlowLayout.m */; };
+		71BA7E481DCBBFAF005A0D6E /* TrackEventsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71BA7E471DCBBFAF005A0D6E /* TrackEventsViewController.m */; };
+		71C86D3F1DCB05DA00E17EEB /* ContentManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C86D3E1DCB05DA00E17EEB /* ContentManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +59,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7151F9AA1DCBB2F600E5AF27 /* EventsList+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EventsList+CoreDataProperties.h"; sourceTree = "<group>"; };
+		7151F9AB1DCBB2F600E5AF27 /* EventsList+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "EventsList+CoreDataProperties.m"; sourceTree = "<group>"; };
+		7151F9AC1DCBB2F600E5AF27 /* EventsList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventsList.h; sourceTree = "<group>"; };
+		7151F9AD1DCBB2F600E5AF27 /* EventsList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventsList.m; sourceTree = "<group>"; };
+		7169663B1DCB5EAA001FDE10 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		716C0A751DCA266C00C6DCC2 /* KeepWorksTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeepWorksTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		716C0A791DCA266C00C6DCC2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		716C0A7B1DCA266C00C6DCC2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -53,6 +81,33 @@
 		716C0A9C1DCA266C00C6DCC2 /* KeepWorksTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeepWorksTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		716C0AA01DCA266C00C6DCC2 /* KeepWorksTaskUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeepWorksTaskUITests.m; sourceTree = "<group>"; };
 		716C0AA21DCA266C00C6DCC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		716C0AAE1DCA27C000C6DCC2 /* EventsListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventsListViewController.h; sourceTree = "<group>"; };
+		716C0AAF1DCA27C000C6DCC2 /* EventsListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventsListViewController.m; sourceTree = "<group>"; };
+		718070751DCA519400EAD966 /* EventsListCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventsListCollectionViewCell.h; sourceTree = "<group>"; };
+		718070761DCA519400EAD966 /* EventsListCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventsListCollectionViewCell.m; sourceTree = "<group>"; };
+		718070771DCA519400EAD966 /* EventsListCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EventsListCollectionViewCell.xib; sourceTree = "<group>"; };
+		7180707A1DCA618000EAD966 /* EventsDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventsDetailViewController.h; sourceTree = "<group>"; };
+		7180707B1DCA618000EAD966 /* EventsDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventsDetailViewController.m; sourceTree = "<group>"; };
+		7180709D1DCA761200EAD966 /* Barbecue Fridays.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Barbecue Fridays.jpeg"; sourceTree = "<group>"; };
+		7180709E1DCA761200EAD966 /* Italian carnival.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Italian carnival.jpeg"; sourceTree = "<group>"; };
+		7180709F1DCA761200EAD966 /* Metallica Concert.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Metallica Concert.jpeg"; sourceTree = "<group>"; };
+		718070A01DCA761200EAD966 /* Rock and Roll nights.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Rock and Roll nights.jpeg"; sourceTree = "<group>"; };
+		718070A11DCA761200EAD966 /* SareeExhibition.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SareeExhibition.jpeg; sourceTree = "<group>"; };
+		718070A21DCA761200EAD966 /* Startups Meet.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Startups Meet.jpeg"; sourceTree = "<group>"; };
+		718070A31DCA761200EAD966 /* Summer Noon Party.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Summer Noon Party.jpeg"; sourceTree = "<group>"; };
+		718070A41DCA761200EAD966 /* Summer workshop.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Summer workshop.jpeg"; sourceTree = "<group>"; };
+		718070A51DCA761200EAD966 /* Wine tasting.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Wine tasting.jpeg"; sourceTree = "<group>"; };
+		718070AF1DCA770F00EAD966 /* Impressions & Expressions.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Impressions & Expressions.jpeg"; sourceTree = "<group>"; };
+		718070B11DCA7F6600EAD966 /* grid_active@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "grid_active@3x.png"; sourceTree = "<group>"; };
+		718070B51DCA7FAF00EAD966 /* list_active@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list_active@3x.png"; sourceTree = "<group>"; };
+		71A57E0A1DCB994A0036601E /* EventsGridFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventsGridFlowLayout.h; sourceTree = "<group>"; };
+		71A57E0B1DCB994A0036601E /* EventsGridFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventsGridFlowLayout.m; sourceTree = "<group>"; };
+		71A57E0D1DCB99610036601E /* EventsListFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventsListFlowLayout.h; sourceTree = "<group>"; };
+		71A57E0E1DCB99610036601E /* EventsListFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventsListFlowLayout.m; sourceTree = "<group>"; };
+		71BA7E461DCBBFAF005A0D6E /* TrackEventsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackEventsViewController.h; sourceTree = "<group>"; };
+		71BA7E471DCBBFAF005A0D6E /* TrackEventsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrackEventsViewController.m; sourceTree = "<group>"; };
+		71C86D3D1DCB05DA00E17EEB /* ContentManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentManager.h; sourceTree = "<group>"; };
+		71C86D3E1DCB05DA00E17EEB /* ContentManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +115,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7169663C1DCB5EAA001FDE10 /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +136,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		715D5FF81DCC518D006C67C8 /* TrackEventsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				71BA7E461DCBBFAF005A0D6E /* TrackEventsViewController.h */,
+				71BA7E471DCBBFAF005A0D6E /* TrackEventsViewController.m */,
+			);
+			name = TrackEventsViewController;
+			sourceTree = "<group>";
+		};
+		715D5FF91DCC51B5006C67C8 /* KeepWorksContentMangaer */ = {
+			isa = PBXGroup;
+			children = (
+				7151F9AA1DCBB2F600E5AF27 /* EventsList+CoreDataProperties.h */,
+				7151F9AB1DCBB2F600E5AF27 /* EventsList+CoreDataProperties.m */,
+				7151F9AC1DCBB2F600E5AF27 /* EventsList.h */,
+				7151F9AD1DCBB2F600E5AF27 /* EventsList.m */,
+				71C86D3D1DCB05DA00E17EEB /* ContentManager.h */,
+				71C86D3E1DCB05DA00E17EEB /* ContentManager.m */,
+			);
+			name = KeepWorksContentMangaer;
+			sourceTree = "<group>";
+		};
+		715D5FFA1DCC51ED006C67C8 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				718070B11DCA7F6600EAD966 /* grid_active@3x.png */,
+				7180709D1DCA761200EAD966 /* Barbecue Fridays.jpeg */,
+				7180709E1DCA761200EAD966 /* Italian carnival.jpeg */,
+				718070B51DCA7FAF00EAD966 /* list_active@3x.png */,
+				7180709F1DCA761200EAD966 /* Metallica Concert.jpeg */,
+				718070A01DCA761200EAD966 /* Rock and Roll nights.jpeg */,
+				718070A11DCA761200EAD966 /* SareeExhibition.jpeg */,
+				718070A21DCA761200EAD966 /* Startups Meet.jpeg */,
+				718070A31DCA761200EAD966 /* Summer Noon Party.jpeg */,
+				718070AF1DCA770F00EAD966 /* Impressions & Expressions.jpeg */,
+				718070A41DCA761200EAD966 /* Summer workshop.jpeg */,
+				718070A51DCA761200EAD966 /* Wine tasting.jpeg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		7169663A1DCB5EAA001FDE10 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7169663B1DCB5EAA001FDE10 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		716C0A6C1DCA266B00C6DCC2 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +192,7 @@
 				716C0A941DCA266C00C6DCC2 /* KeepWorksTaskTests */,
 				716C0A9F1DCA266C00C6DCC2 /* KeepWorksTaskUITests */,
 				716C0A761DCA266C00C6DCC2 /* Products */,
+				7169663A1DCB5EAA001FDE10 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,7 +213,16 @@
 				716C0A7C1DCA266C00C6DCC2 /* AppDelegate.m */,
 				716C0A7E1DCA266C00C6DCC2 /* ViewController.h */,
 				716C0A7F1DCA266C00C6DCC2 /* ViewController.m */,
+				71A57E0D1DCB99610036601E /* EventsListFlowLayout.h */,
+				71A57E0E1DCB99610036601E /* EventsListFlowLayout.m */,
+				71A57E0A1DCB994A0036601E /* EventsGridFlowLayout.h */,
+				71A57E0B1DCB994A0036601E /* EventsGridFlowLayout.m */,
 				716C0A811DCA266C00C6DCC2 /* Main.storyboard */,
+				715D5FFA1DCC51ED006C67C8 /* Images */,
+				715D5FF91DCC51B5006C67C8 /* KeepWorksContentMangaer */,
+				715D5FF81DCC518D006C67C8 /* TrackEventsViewController */,
+				71C86D3C1DCAF4EC00E17EEB /* EventsDetailViewController */,
+				71C86D3B1DCAF4C500E17EEB /* EventsListViewController */,
 				716C0A871DCA266C00C6DCC2 /* Assets.xcassets */,
 				716C0A891DCA266C00C6DCC2 /* LaunchScreen.storyboard */,
 				716C0A8C1DCA266C00C6DCC2 /* Info.plist */,
@@ -141,6 +256,27 @@
 				716C0AA21DCA266C00C6DCC2 /* Info.plist */,
 			);
 			path = KeepWorksTaskUITests;
+			sourceTree = "<group>";
+		};
+		71C86D3B1DCAF4C500E17EEB /* EventsListViewController */ = {
+			isa = PBXGroup;
+			children = (
+				716C0AAE1DCA27C000C6DCC2 /* EventsListViewController.h */,
+				716C0AAF1DCA27C000C6DCC2 /* EventsListViewController.m */,
+				718070751DCA519400EAD966 /* EventsListCollectionViewCell.h */,
+				718070761DCA519400EAD966 /* EventsListCollectionViewCell.m */,
+				718070771DCA519400EAD966 /* EventsListCollectionViewCell.xib */,
+			);
+			name = EventsListViewController;
+			sourceTree = "<group>";
+		};
+		71C86D3C1DCAF4EC00E17EEB /* EventsDetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7180707A1DCA618000EAD966 /* EventsDetailViewController.h */,
+				7180707B1DCA618000EAD966 /* EventsDetailViewController.m */,
+			);
+			name = EventsDetailViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,9 +382,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				718070AE1DCA761200EAD966 /* Wine tasting.jpeg in Resources */,
+				718070B01DCA770F00EAD966 /* Impressions & Expressions.jpeg in Resources */,
+				718070B31DCA7F6600EAD966 /* grid_active@3x.png in Resources */,
 				716C0A8B1DCA266C00C6DCC2 /* LaunchScreen.storyboard in Resources */,
+				718070B61DCA7FAF00EAD966 /* list_active@3x.png in Resources */,
 				716C0A881DCA266C00C6DCC2 /* Assets.xcassets in Resources */,
+				718070A61DCA761200EAD966 /* Barbecue Fridays.jpeg in Resources */,
+				718070A91DCA761200EAD966 /* Rock and Roll nights.jpeg in Resources */,
+				718070AC1DCA761200EAD966 /* Summer Noon Party.jpeg in Resources */,
+				718070A71DCA761200EAD966 /* Italian carnival.jpeg in Resources */,
+				718070791DCA519400EAD966 /* EventsListCollectionViewCell.xib in Resources */,
 				716C0A831DCA266C00C6DCC2 /* Main.storyboard in Resources */,
+				718070AD1DCA761200EAD966 /* Summer workshop.jpeg in Resources */,
+				718070AB1DCA761200EAD966 /* Startups Meet.jpeg in Resources */,
+				718070AA1DCA761200EAD966 /* SareeExhibition.jpeg in Resources */,
+				718070A81DCA761200EAD966 /* Metallica Concert.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,10 +422,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71A57E0C1DCB994A0036601E /* EventsGridFlowLayout.m in Sources */,
 				716C0A861DCA266C00C6DCC2 /* KeepWorksTask.xcdatamodeld in Sources */,
+				71A57E0F1DCB99610036601E /* EventsListFlowLayout.m in Sources */,
+				71C86D3F1DCB05DA00E17EEB /* ContentManager.m in Sources */,
 				716C0A801DCA266C00C6DCC2 /* ViewController.m in Sources */,
+				7151F9AE1DCBB2F600E5AF27 /* EventsList+CoreDataProperties.m in Sources */,
+				716C0AB01DCA27C000C6DCC2 /* EventsListViewController.m in Sources */,
 				716C0A7D1DCA266C00C6DCC2 /* AppDelegate.m in Sources */,
+				7151F9AF1DCBB2F600E5AF27 /* EventsList.m in Sources */,
 				716C0A7A1DCA266C00C6DCC2 /* main.m in Sources */,
+				7180707C1DCA618000EAD966 /* EventsDetailViewController.m in Sources */,
+				718070781DCA519400EAD966 /* EventsListCollectionViewCell.m in Sources */,
+				71BA7E481DCBBFAF005A0D6E /* TrackEventsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,9 +576,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = KeepWorksTask/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.satish.KeepWorksTask;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -429,9 +589,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = KeepWorksTask/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.satish.KeepWorksTask;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
@@ -500,6 +662,7 @@
 				716C0AA71DCA266C00C6DCC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		716C0AA81DCA266C00C6DCC2 /* Build configuration list for PBXNativeTarget "KeepWorksTaskTests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +671,7 @@
 				716C0AAA1DCA266C00C6DCC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		716C0AAB1DCA266C00C6DCC2 /* Build configuration list for PBXNativeTarget "KeepWorksTaskUITests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +680,7 @@
 				716C0AAD1DCA266C00C6DCC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

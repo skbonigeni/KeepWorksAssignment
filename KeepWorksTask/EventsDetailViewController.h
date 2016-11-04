@@ -9,5 +9,12 @@
 #import <UIKit/UIKit.h>
 
 @interface EventsDetailViewController : UIViewController
-
+@property (weak, nonatomic) IBOutlet UILabel *detailEventNameLabel;
+@property (weak, nonatomic) IBOutlet UILabel *detailEventLocationLabel;
+@property (weak, nonatomic) IBOutlet UILabel *detailEventTypeLabel;
+@property (weak, nonatomic) IBOutlet UIImageView *imageView;
+@property (strong, nonatomic) NSString*eventNameString;
+@property (strong, nonatomic) NSString*eventLocationString;
+@property (strong, nonatomic) NSString*eventTypeString;
+@property (strong, nonatomic) UIImage*eventImageObject;
 @end

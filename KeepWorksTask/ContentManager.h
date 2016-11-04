@@ -9,5 +9,8 @@
 #import <Foundation/Foundation.h>
 
 @interface ContentManager : NSObject
-
++ (ContentManager *) contentSharedManager;
+-(void)saveAllEventsData;
+-(NSMutableArray *)getAllEventsData;
+-(NSMutableArray *)getTrackingEventsList;
 @end

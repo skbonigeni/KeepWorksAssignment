@@ -7,9 +7,13 @@
 //
 
 #import "TrackEventsViewController.h"
+#import "EventsList.h"
+#import "ContentManager.h"
 
 @interface TrackEventsViewController ()
-
+{
+    NSMutableArray *eventlistArray;
+}
 @end
 
 @implementation TrackEventsViewController
@@ -17,6 +21,20 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    eventlistArray = [[ContentManager contentSharedManager] getAllEventsData];
+    
+}
+
+-(void)filterEvents{
+    for (int i=0; i<eventlistArray.count; i++) {
+        EventsList *eventsListObject = [eventlistArray objectAtIndex:i];
+        if (eventsListObject.iseventtrack==0){
+            
+        }
+        else{
+            
+        }
+    }
 }
 
 - (void)didReceiveMemoryWarning {

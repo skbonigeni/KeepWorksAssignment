@@ -9,5 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @interface EventsListViewController : UIViewController
+- (IBAction)showListButtonAction:(id)sender;
+- (IBAction)showGridViewButtonAction:(id)sender;
+
+@property (weak, nonatomic)NSMutableArray *eventNameArray;
+@property (weak, nonatomic)NSMutableArray *eventLocationArray;
+@property (weak, nonatomic)NSMutableArray *eventThumbnailArray;
 
 @end

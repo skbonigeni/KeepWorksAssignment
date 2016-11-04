@@ -7,8 +7,10 @@
 //
 
 #import "EventsDetailViewController.h"
+#import "TrackEventsViewController.h"
 
 @interface EventsDetailViewController ()
+- (IBAction)trackEventButtonAction:(id)sender;
 
 @end
 
@@ -17,6 +19,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    _detailEventNameLabel.text=_eventNameString;
+    _detailEventLocationLabel.text=_eventLocationString;
+    _detailEventTypeLabel.text=_eventTypeString;
+    [_imageView setImage:_eventImageObject];
+    self.title=@"Event Details";
 }
 
 - (void)didReceiveMemoryWarning {
@@ -34,4 +41,10 @@
 }
 */
 
+- (IBAction)trackEventButtonAction:(id)sender {
+    UIStoryboard *storyBoardObject = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    
+    TrackEventsViewController * trackEventsViewControllerObject = [storyBoardObject instantiateViewControllerWithIdentifier:@"TrackEventsViewControllerID"];
+    [self.navigationController pushViewController:trackEventsViewControllerObject animated:YES];
+}
 @end
